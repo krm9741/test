@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>welcome to signup page</h1>
+    <h1>
+        <%= locals.msg||"no data available"%>
+    </h1>
+    <form action="/signup" , method="post">
+        <table>
+            <td> <label>Name</label></td>
+            <td> <input type="text" name="name" placeholder="enter your name" /></td>
+            </tr>
+            <tr>
+                <td> <label>password</label></td>
+                <td> <input type="password" name="password" placeholder="enter your name" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>email</label>
+                </td>
+                <td> <input type="email" name="email" placeholder="enter your name" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Mobile No</label>
+                </td>
+                <td> <input type="text" name="mobilenumber" placeholder="enter your Mobile number" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" value="signup" name="btn">Signup</button>
+                </td>
+                <td> <button type="submit" value="cancel" name="btn">Cancel</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

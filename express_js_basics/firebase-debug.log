@@ -1,0 +1,138 @@
+[debug] [2026-02-25T17:41:19.194Z] ----------------------------------------------------------------------
+[debug] [2026-02-25T17:41:19.219Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-02-25T17:41:19.220Z] CLI Version:   15.7.0
+[debug] [2026-02-25T17:41:19.220Z] Platform:      win32
+[debug] [2026-02-25T17:41:19.220Z] Node Version:  v20.11.0
+[debug] [2026-02-25T17:41:19.221Z] Time:          Wed Feb 25 2026 23:11:19 GMT+0530 (India Standard Time)
+[debug] [2026-02-25T17:41:19.221Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-25T17:41:19.227Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[debug] [2026-02-25T17:41:20.682Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-02-25T17:41:20.683Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-02-25T17:41:20.687Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+[debug] [2026-02-25T17:41:24.421Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+    at Object.mkdirSync (node:fs:1380:26)
+    at module.exports.sync (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Command.actionFn (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:37:35)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-02-25T17:41:24.756Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+    at Object.mkdirSync (node:fs:1380:26)
+    at module.exports.sync (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\cli.js:62:39)
+    at process.emit (node:events:530:35)
+    at process.exit (node:internal/process/per_thread:192:15)
+    at Timeout._onTimeout (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-02-25T17:41:35.017Z] ----------------------------------------------------------------------
+[debug] [2026-02-25T17:41:35.030Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-02-25T17:41:35.031Z] CLI Version:   15.7.0
+[debug] [2026-02-25T17:41:35.032Z] Platform:      win32
+[debug] [2026-02-25T17:41:35.033Z] Node Version:  v20.11.0
+[debug] [2026-02-25T17:41:35.034Z] Time:          Wed Feb 25 2026 23:11:35 GMT+0530 (India Standard Time)
+[debug] [2026-02-25T17:41:35.034Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-25T17:41:35.044Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[debug] [2026-02-25T17:41:37.111Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-02-25T17:41:37.113Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-02-25T17:41:37.118Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+[debug] [2026-02-25T17:42:57.168Z] ----------------------------------------------------------------------
+[debug] [2026-02-25T17:42:57.182Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-02-25T17:42:57.184Z] CLI Version:   15.7.0
+[debug] [2026-02-25T17:42:57.185Z] Platform:      win32
+[debug] [2026-02-25T17:42:57.185Z] Node Version:  v20.11.0
+[debug] [2026-02-25T17:42:57.186Z] Time:          Wed Feb 25 2026 23:12:57 GMT+0530 (India Standard Time)
+[debug] [2026-02-25T17:42:57.186Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-25T17:42:57.200Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[debug] [2026-02-25T17:42:58.242Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-02-25T17:42:58.243Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-02-25T17:42:58.247Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+[debug] [2026-02-25T17:43:05.073Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:518:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+    at ReadStream.emit (node:events:530:35)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-02-25T17:43:05.423Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+    at Object.mkdirSync (node:fs:1380:26)
+    at module.exports.sync (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\cli.js:62:39)
+    at process.emit (node:events:530:35)
+    at process.exit (node:internal/process/per_thread:192:15)
+    at Timeout._onTimeout (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-02-25T17:45:24.211Z] ----------------------------------------------------------------------
+[debug] [2026-02-25T17:45:24.223Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-02-25T17:45:24.225Z] CLI Version:   15.7.0
+[debug] [2026-02-25T17:45:24.226Z] Platform:      win32
+[debug] [2026-02-25T17:45:24.226Z] Node Version:  v20.11.0
+[debug] [2026-02-25T17:45:24.227Z] Time:          Wed Feb 25 2026 23:15:24 GMT+0530 (India Standard Time)
+[debug] [2026-02-25T17:45:24.228Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-25T17:45:24.237Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[debug] [2026-02-25T17:45:25.263Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-02-25T17:45:25.264Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-02-25T17:45:25.269Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+[debug] [2026-02-25T17:45:27.658Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+    at Object.mkdirSync (node:fs:1380:26)
+    at module.exports.sync (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Command.actionFn (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:37:35)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-02-25T17:45:29.606Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
+    at Object.mkdirSync (node:fs:1380:26)
+    at module.exports.sync (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\cli.js:62:39)
+    at process.emit (node:events:530:35)
+    at process.exit (node:internal/process/per_thread:192:15)
+    at Timeout._onTimeout (C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-02-25T17:45:54.505Z] ----------------------------------------------------------------------
+[debug] [2026-02-25T17:45:54.517Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RACHAPPA R MUNDARGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-02-25T17:45:54.519Z] CLI Version:   15.7.0
+[debug] [2026-02-25T17:45:54.520Z] Platform:      win32
+[debug] [2026-02-25T17:45:54.520Z] Node Version:  v20.11.0
+[debug] [2026-02-25T17:45:54.521Z] Time:          Wed Feb 25 2026 23:15:54 GMT+0530 (India Standard Time)
+[debug] [2026-02-25T17:45:54.522Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-25T17:45:54.531Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[debug] [2026-02-25T17:45:55.597Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-02-25T17:45:55.598Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-02-25T17:45:55.603Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\RACHAPPA R MUNDARGI\.config\configstore'
